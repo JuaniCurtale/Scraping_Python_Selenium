@@ -1,0 +1,22 @@
+# Ignorar entornos virtuales
+venv/
+
+# Ignorar archivos de compilación
+build/
+dist/
+
+# Archivos específicos de Python
+__pycache__/
+*.py[cod]
+*.spec
+
+# Archivos de configuración del entorno
+*.env
+.env/
+
+# Ignorar archivos generados por PyInstaller
+*.exe
+*.dll
+*.pyd
+*.zip
+*.log
